@@ -1,0 +1,19 @@
+{
+  "name": "rutik-portfolio",
+  "private": true,
+  "version": "3.0.0",
+  "description": "Rutik Sankapal – Cloud Engineer portfolio with a 3D cloud-lifecycle loop (Vite + Three.js + GSAP).",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "three": "~0.160.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  }
+}

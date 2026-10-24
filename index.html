@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rutik Sankapal – Cloud Engineer</title>
+  <meta name="description" content="Rutik Sankapal, Cloud Engineer in Mumbai. Multi-cloud operations on AWS, Azure, GCP and OCI for 50+ BFSI and enterprise clients: security hardening, DR drills, monitoring and automation.">
+  <meta name="theme-color" content="#090C11">
+  <link rel="canonical" href="https://YOUR_GITHUB_USERNAME.github.io/">
+  <meta property="og:title" content="Rutik Sankapal – Cloud Engineer">
+  <meta property="og:description" content="Operating, securing and automating multi-cloud infrastructure on AWS, Azure, GCP and OCI.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://YOUR_GITHUB_USERNAME.github.io/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none'%3E%3Cdefs%3E%3ClinearGradient id='brandGrad' x1='0' y1='0' x2='40' y2='40' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%233FD8F5'/%3E%3Cstop offset='1' stop-color='%235B8CFF'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0.75' y='0.75' width='38.5' height='38.5' rx='11' fill='%230E151F' stroke='url%28%23brandGrad%29' stroke-opacity='.55' stroke-width='1.5'/%3E%3Cpath d='M13 24.2V11.5h6.5a8.5 8.5 0 0 1 0 17h-2.2' stroke='url%28%23brandGrad%29' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='13' cy='28.5' r='3.2' fill='%233DDC97'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/styles/main.css">
+  <link rel="stylesheet" href="/src/styles/upgrades.css">
+  <script>
+    document.documentElement.classList.add("js");
+    // Safety net: if the main script fails to load, never leave visitors on the boot screen.
+    setTimeout(function () { var b = document.getElementById("boot"); if (b) b.remove(); }, 9000);
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Rutik Sankapal",
+    "jobTitle": "Cloud Solutions Associate",
+    "worksFor": { "@type": "Organization", "name": "NuSummit Technologies" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Mumbai", "addressRegion": "Maharashtra", "addressCountry": "IN" },
+    "email": "mailto:rutiksankapal98@gmail.com",
+    "url": "https://YOUR_GITHUB_USERNAME.github.io/",
+    "sameAs": ["https://github.com/YOUR_GITHUB_USERNAME", "https://www.linkedin.com/in/rutik-sankapal"],
+    "alumniOf": "Late Bhausaheb Hiray College"
+  }
+  </script>
+</head>
+<body>
+  <!-- Icon set (generic line icons, reused across the page) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-pipeline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="6" r="2.2"/><circle cx="5" cy="18" r="2.2"/><circle cx="19" cy="12" r="2.2"/><path d="M7.2 6h3.3a3 3 0 0 1 3 3v0a3 3 0 0 0 3 3h.3M7.2 18h3.3a3 3 0 0 0 3-3v0"/></symbol>
+      <symbol id="i-gear" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3.2"/><path d="M12 2.8v2.4M12 18.8v2.4M4.2 7.5l2.1 1.2M17.7 15.3l2.1 1.2M4.2 16.5l2.1-1.2M17.7 8.7l2.1-1.2"/><circle cx="12" cy="12" r="7.2"/></symbol>
+      <symbol id="i-container" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M4 7.5l8 4.5 8-4.5M12 12v9"/></symbol>
+      <symbol id="i-cluster" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M12 2.8l7.8 4.5v9.4L12 21.2l-7.8-4.5V7.3z"/><circle cx="12" cy="12" r="2.4"/><path d="M12 5.6v4M12 14.4v4M6.5 8.8l3.4 2M14.1 13.2l3.4 2M6.5 15.2l3.4-2M14.1 10.8l3.4-2"/></symbol>
+      <symbol id="i-playbook" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="3" width="15" height="18" rx="2.5"/><path d="M8 8.5l1.4 1.4L12 7.3M14 9h2.5M8 14.5l1.4 1.4 2.6-2.6M14 15h2.5"/></symbol>
+      <symbol id="i-web" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2.5"/><path d="M3 8.5h18M6 6.3h.01M8.3 6.3h.01"/><path d="M8.5 13l-2 2 2 2M15.5 13l2 2-2 2M13 12.5l-2 5"/></symbol>
+      <symbol id="i-server" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><rect x="4" y="3.5" width="16" height="7" rx="2"/><rect x="4" y="13.5" width="16" height="7" rx="2"/><path d="M7.5 7h.01M7.5 17h.01M11 7h5.5M11 17h5.5"/></symbol>
+      <symbol id="i-terminal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2.5"/><path d="M7 9.5l3 2.5-3 2.5M12.5 15H17"/></symbol>
+      <symbol id="i-gauge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4.2 17.5a8.5 8.5 0 1 1 15.6 0"/><path d="M12 13.5l4-4.5"/><circle cx="12" cy="14" r="1.6"/></symbol>
+      <symbol id="i-chart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2.5"/><path d="M6.5 15.5l3.5-4 3 2.5 4.5-6"/></symbol>
+      <symbol id="i-logs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M5 6h14M5 10h10M5 14h14M5 18h8"/></symbol>
+      <symbol id="i-db" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><ellipse cx="12" cy="6" rx="7" ry="2.8"/><path d="M5 6v12c0 1.5 3.1 2.8 7 2.8s7-1.3 7-2.8V6M5 12c0 1.5 3.1 2.8 7 2.8s7-1.3 7-2.8"/></symbol>
+      <symbol id="i-cloud" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M7 18.5h10.5a4 4 0 0 0 .4-8 6 6 0 0 0-11.6-1.3A4.7 4.7 0 0 0 7 18.5z"/></symbol>
+      <symbol id="i-shell" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7l5 5-5 5M12 17h7"/></symbol>
+      <symbol id="i-branch" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="6.5" cy="5.5" r="2.2"/><circle cx="6.5" cy="18.5" r="2.2"/><circle cx="17.5" cy="8" r="2.2"/><path d="M6.5 7.7v8.6M17.5 10.2c0 4-6.5 3-10.4 6.2"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7.5 3v5.5c0 4.6-3.1 8-7.5 9.5-4.4-1.5-7.5-4.9-7.5-9.5V6z"/><path d="M9 12l2.1 2.1L15.2 10"/></symbol>
+      <symbol id="i-support" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 13.5v-1.5a7.5 7.5 0 0 1 15 0v1.5"/><rect x="3.5" y="13" width="4" height="6" rx="1.5"/><rect x="16.5" y="13" width="4" height="6" rx="1.5"/><path d="M18.5 19c0 1.4-1.6 2-3.5 2h-2"/></symbol>
+      <symbol id="i-cube" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M4 7.5L12 3l8 4.5-8 4.5zM4 7.5v9L12 21v-9M20 7.5v9L12 21"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+      <symbol id="i-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 21h16"/></symbol>
+      <symbol id="i-github" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></symbol>
+      <symbol id="i-linkedin" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.5c0-1.31-.02-3-1.83-3-1.83 0-2.11 1.43-2.11 2.9V21H9z"/></symbol>
+    </defs>
+  </svg>
+
+  <a class="skip" href="#projects">Skip to projects</a>
+
+  <!-- Terminal boot screen (hidden from screen readers; removed once the scene is ready) -->
+  <div class="boot" id="boot" aria-hidden="true">
+    <div class="boot-term">
+      <div class="boot-bar"><i></i><i></i><i></i><span>ops-agent — boot</span></div>
+      <pre class="boot-log" id="bootLog"></pre>
+    </div>
+  </div>
+
+  <!-- 3D scene: one fixed canvas behind the page -->
+  <canvas class="scene" id="scene" aria-hidden="true"></canvas>
+
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="#top" aria-label="Rutik Sankapal, back to top"><svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true"><defs><linearGradient id="brandGrad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse"><stop stop-color="#3FD8F5"/><stop offset="1" stop-color="#5B8CFF"/></linearGradient></defs><rect x="0.75" y="0.75" width="38.5" height="38.5" rx="11" fill="#0E151F" stroke="url(#brandGrad)" stroke-opacity=".55" stroke-width="1.5"/><path d="M13 24.2V11.5h6.5a8.5 8.5 0 0 1 0 17h-2.2" stroke="url(#brandGrad)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="13" cy="28.5" r="3.2" fill="#3DDC97"/></svg><span class="brand-name">Rutik Sankapal</span></a>
+      <nav class="stages-nav" aria-label="Sections">
+        <ol id="stagesNav">
+          <li data-sec="about"><a href="#about"><span class="node"></span><span class="lbl">About</span></a></li>
+          <li data-sec="skills"><a href="#skills"><span class="node"></span><span class="lbl">Skills</span></a></li>
+          <li data-sec="experience"><a href="#experience"><span class="node"></span><span class="lbl">Experience</span></a></li>
+          <li data-sec="ops"><a href="#ops"><span class="node"></span><span class="lbl">Ops</span></a></li>
+          <li data-sec="projects"><a href="#projects"><span class="node"></span><span class="lbl">Projects</span></a></li>
+          <li data-sec="stack"><a href="#stack"><span class="node"></span><span class="lbl">Stack</span></a></li>
+          <li data-sec="shell"><a href="#shell"><span class="node"></span><span class="lbl">Shell</span></a></li>
+          <li data-sec="contact"><a href="#contact"><span class="node"></span><span class="lbl">Contact</span></a></li>
+        </ol>
+      </nav>
+      <button class="kbar-btn" id="kbarOpen" type="button" aria-haspopup="dialog" aria-controls="kbar"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><span class="kbar-lbl">Search</span><kbd data-kbd>Ctrl K</kbd></button>
+    </div>
+    <div class="progress" aria-hidden="true"><i id="progressBar"></i></div>
+  </header>
+
+  <main id="top">
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <!-- Static loop, shown only when WebGL is not available -->
+      <svg class="loop-fallback" viewBox="0 0 600 220" aria-hidden="true">
+        <defs><linearGradient id="lf" x1="0" x2="1"><stop offset="0" stop-color="#3FD8F5"/><stop offset=".5" stop-color="#5BB8F0"/><stop offset="1" stop-color="#3DDC97"/></linearGradient></defs>
+        <path d="M500.0 110.0 L499.9 113.5 L499.6 117.0 L499.2 120.4 L498.5 123.8 L497.7 127.2 L496.8 130.6 L495.6 133.8 L494.3 137.0 L492.8 140.2 L491.2 143.2 L489.4 146.1 L487.5 149.0 L485.5 151.7 L483.3 154.4 L481.1 156.9 L478.7 159.3 L476.2 161.5 L473.6 163.7 L471.0 165.7 L468.3 167.5 L465.5 169.3 L462.6 170.9 L459.7 172.4 L456.8 173.8 L453.8 175.0 L450.8 176.1 L447.7 177.1 L444.7 177.9 L441.6 178.7 L438.6 179.3 L435.5 179.8 L432.4 180.2 L429.4 180.5 L426.3 180.6 L423.3 180.7 L420.3 180.7 L417.3 180.6 L414.3 180.4 L411.3 180.1 L408.4 179.7 L405.5 179.2 L402.7 178.7 L399.8 178.1 L397.0 177.4 L394.3 176.7 L391.6 175.9 L388.9 175.0 L386.2 174.1 L383.6 173.1 L381.0 172.1 L378.5 171.0 L376.0 169.9 L373.5 168.7 L371.1 167.5 L368.7 166.2 L366.3 165.0 L363.9 163.6 L361.6 162.3 L359.4 160.9 L357.1 159.5 L354.9 158.0 L352.8 156.6 L350.6 155.1 L348.5 153.6 L346.4 152.1 L344.3 150.5 L342.3 148.9 L340.3 147.4 L338.3 145.8 L336.3 144.1 L334.4 142.5 L332.5 140.9 L330.5 139.2 L328.7 137.5 L326.8 135.9 L324.9 134.2 L323.1 132.5 L321.3 130.8 L319.4 129.1 L317.6 127.4 L315.8 125.6 L314.1 123.9 L312.3 122.2 L310.5 120.5 L308.7 118.7 L307.0 117.0 L305.2 115.2 L303.5 113.5 L301.7 111.7 L300.0 110.0 L298.3 108.3 L296.5 106.5 L294.8 104.8 L293.0 103.0 L291.3 101.3 L289.5 99.5 L287.7 97.8 L285.9 96.1 L284.2 94.4 L282.4 92.6 L280.6 90.9 L278.7 89.2 L276.9 87.5 L275.1 85.8 L273.2 84.1 L271.3 82.5 L269.5 80.8 L267.5 79.1 L265.6 77.5 L263.7 75.9 L261.7 74.2 L259.7 72.6 L257.7 71.1 L255.7 69.5 L253.6 67.9 L251.5 66.4 L249.4 64.9 L247.2 63.4 L245.1 62.0 L242.9 60.5 L240.6 59.1 L238.4 57.7 L236.1 56.4 L233.7 55.0 L231.3 53.8 L228.9 52.5 L226.5 51.3 L224.0 50.1 L221.5 49.0 L219.0 47.9 L216.4 46.9 L213.8 45.9 L211.1 45.0 L208.4 44.1 L205.7 43.3 L203.0 42.6 L200.2 41.9 L197.3 41.3 L194.5 40.8 L191.6 40.3 L188.7 39.9 L185.7 39.6 L182.7 39.4 L179.7 39.3 L176.7 39.3 L173.7 39.4 L170.6 39.5 L167.6 39.8 L164.5 40.2 L161.4 40.7 L158.4 41.3 L155.3 42.1 L152.3 42.9 L149.2 43.9 L146.2 45.0 L143.2 46.2 L140.3 47.6 L137.4 49.1 L134.5 50.7 L131.7 52.5 L129.0 54.3 L126.4 56.3 L123.8 58.5 L121.3 60.7 L118.9 63.1 L116.7 65.6 L114.5 68.3 L112.5 71.0 L110.6 73.9 L108.8 76.8 L107.2 79.8 L105.7 83.0 L104.4 86.2 L103.2 89.4 L102.3 92.8 L101.5 96.2 L100.8 99.6 L100.4 103.0 L100.1 106.5 L100.0 110.0 L100.1 113.5 L100.4 117.0 L100.8 120.4 L101.5 123.8 L102.3 127.2 L103.2 130.6 L104.4 133.8 L105.7 137.0 L107.2 140.2 L108.8 143.2 L110.6 146.1 L112.5 149.0 L114.5 151.7 L116.7 154.4 L118.9 156.9 L121.3 159.3 L123.8 161.5 L126.4 163.7 L129.0 165.7 L131.7 167.5 L134.5 169.3 L137.4 170.9 L140.3 172.4 L143.2 173.8 L146.2 175.0 L149.2 176.1 L152.3 177.1 L155.3 177.9 L158.4 178.7 L161.4 179.3 L164.5 179.8 L167.6 180.2 L170.6 180.5 L173.7 180.6 L176.7 180.7 L179.7 180.7 L182.7 180.6 L185.7 180.4 L188.7 180.1 L191.6 179.7 L194.5 179.2 L197.3 178.7 L200.2 178.1 L203.0 177.4 L205.7 176.7 L208.4 175.9 L211.1 175.0 L213.8 174.1 L216.4 173.1 L219.0 172.1 L221.5 171.0 L224.0 169.9 L226.5 168.7 L228.9 167.5 L231.3 166.2 L233.7 165.0 L236.1 163.6 L238.4 162.3 L240.6 160.9 L242.9 159.5 L245.1 158.0 L247.2 156.6 L249.4 155.1 L251.5 153.6 L253.6 152.1 L255.7 150.5 L257.7 148.9 L259.7 147.4 L261.7 145.8 L263.7 144.1 L265.6 142.5 L267.5 140.9 L269.5 139.2 L271.3 137.5 L273.2 135.9 L275.1 134.2 L276.9 132.5 L278.7 130.8 L280.6 129.1 L282.4 127.4 L284.2 125.6 L285.9 123.9 L287.7 122.2 L289.5 120.5 L291.3 118.7 L293.0 117.0 L294.8 115.2 L296.5 113.5 L298.3 111.7 L300.0 110.0 L301.7 108.3 L303.5 106.5 L305.2 104.8 L307.0 103.0 L308.7 101.3 L310.5 99.5 L312.3 97.8 L314.1 96.1 L315.8 94.4 L317.6 92.6 L319.4 90.9 L321.3 89.2 L323.1 87.5 L324.9 85.8 L326.8 84.1 L328.7 82.5 L330.5 80.8 L332.5 79.1 L334.4 77.5 L336.3 75.9 L338.3 74.2 L340.3 72.6 L342.3 71.1 L344.3 69.5 L346.4 67.9 L348.5 66.4 L350.6 64.9 L352.8 63.4 L354.9 62.0 L357.1 60.5 L359.4 59.1 L361.6 57.7 L363.9 56.4 L366.3 55.0 L368.7 53.8 L371.1 52.5 L373.5 51.3 L376.0 50.1 L378.5 49.0 L381.0 47.9 L383.6 46.9 L386.2 45.9 L388.9 45.0 L391.6 44.1 L394.3 43.3 L397.0 42.6 L399.8 41.9 L402.7 41.3 L405.5 40.8 L408.4 40.3 L411.3 39.9 L414.3 39.6 L417.3 39.4 L420.3 39.3 L423.3 39.3 L426.3 39.4 L429.4 39.5 L432.4 39.8 L435.5 40.2 L438.6 40.7 L441.6 41.3 L444.7 42.1 L447.7 42.9 L450.8 43.9 L453.8 45.0 L456.8 46.2 L459.7 47.6 L462.6 49.1 L465.5 50.7 L468.3 52.5 L471.0 54.3 L473.6 56.3 L476.2 58.5 L478.7 60.7 L481.1 63.1 L483.3 65.6 L485.5 68.3 L487.5 71.0 L489.4 73.9 L491.2 76.8 L492.8 79.8 L494.3 83.0 L495.6 86.2 L496.8 89.4 L497.7 92.8 L498.5 96.2 L499.2 99.6 L499.6 103.0 L499.9 106.5 L500.0 110.0 Z" fill="none" stroke="url(#lf)" stroke-width="5" stroke-linejoin="round"/>
+        <g class="lf-nodes">
+          <circle cx="251" cy="154" r="7" class="d"/><circle cx="129" cy="166" r="7" class="d"/><circle cx="129" cy="54" r="7" class="d"/><circle cx="251" cy="66" r="7" class="d"/>
+          <circle cx="349" cy="154" r="7" class="o"/><circle cx="471" cy="166" r="7" class="o"/><circle cx="471" cy="54" r="7" class="o"/><circle cx="349" cy="66" r="7" class="o"/>
+        </g>
+        <g class="lf-labels">
+          <text x="246" y="190">Plan</text><text x="82" y="200">Design</text><text x="70" y="30">Provision</text><text x="240" y="40">Secure</text>
+          <text x="318" y="190">Deploy</text><text x="462" y="200">Operate</text><text x="448" y="30">Monitor</text><text x="318" y="40">Optimize</text>
+        </g>
+      </svg>
+      <p class="sr-only">Animated cloud lifecycle loop: Plan, Design, Provision and Secure on one side, then Deploy, Operate, Monitor and Optimize on the other, with work items travelling from stage to stage.</p>
+
+      <div class="wrap hero-copy">
+        <p class="whoami" data-hero-item><span class="pulse-dot" aria-hidden="true"></span><span>Cloud Solutions Associate at NuSummit Technologies, Mumbai</span></p>
+        <h1 id="hero-title" data-hero-item><span class="h-name">Rutik Sankapal</span><span class="h-sep" aria-hidden="true"> – </span><span class="h-role">Cloud Engineer</span></h1>
+        <p class="role-line" data-hero-item>Operating, securing and automating multi-cloud infrastructure.</p>
+        <p class="summary" data-hero-item>
+          I run <strong>AWS, Azure, GCP and OCI</strong> environments for <strong>50+ BFSI and enterprise clients</strong>:
+          L1–L2 support, incident response, security hardening and disaster-recovery drills, with <strong>99%+ SLA compliance</strong>.
+        </p>
+        <div class="actions" data-hero-item>
+          <a class="btn primary" href="#projects">See my projects</a>
+          <a class="btn" href="resume.pdf" download><svg aria-hidden="true"><use href="#i-download"/></svg>Download CV</a>
+          <a class="btn icon" href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" rel="noopener" aria-label="GitHub"><svg aria-hidden="true"><use href="#i-github"/></svg></a>
+          <a class="btn icon" href="https://www.linkedin.com/in/rutik-sankapal" target="_blank" rel="noopener" aria-label="LinkedIn"><svg aria-hidden="true"><use href="#i-linkedin"/></svg></a>
+        </div>
+        <ul class="proof" aria-label="Key numbers from my work" data-hero-item>
+          <li><b data-count="50" data-suffix="+">50+</b><span>BFSI and enterprise clients</span></li>
+          <li><b data-count="4">4</b><span>cloud platforms</span></li>
+          <li><b data-count="3">3</b><span>Bravo Awards</span></li>
+        </ul>
+      </div>
+      <a class="scroll-cue" href="#about" data-hero-item><span>scroll</span><i aria-hidden="true"></i></a>
+    </section>
+
+    <!-- Tool marquee -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track" id="marquee">
+        <span><svg><use href="#i-cloud"/></svg>AWS</span><span><svg><use href="#i-cloud"/></svg>Microsoft Azure</span><span><svg><use href="#i-cloud"/></svg>Google Cloud</span><span><svg><use href="#i-cloud"/></svg>Oracle Cloud</span><span><svg><use href="#i-cube"/></svg>Terraform</span><span><svg><use href="#i-cluster"/></svg>Kubernetes</span><span><svg><use href="#i-container"/></svg>Docker</span><span><svg><use href="#i-terminal"/></svg>Linux</span><span><svg><use href="#i-server"/></svg>Windows Server</span><span><svg><use href="#i-shell"/></svg>Bash</span><span><svg><use href="#i-shell"/></svg>Python</span><span><svg><use href="#i-shell"/></svg>PowerShell</span><span><svg><use href="#i-gauge"/></svg>New Relic</span><span><svg><use href="#i-chart"/></svg>Site24x7</span><span><svg><use href="#i-logs"/></svg>CloudWatch</span><span><svg><use href="#i-shield"/></svg>IAM</span>
+      </div>
+    </div>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="block" id="about" aria-labelledby="about-title">
+      <div class="wrap">
+        <div class="sec-head" data-reveal>
+          <p class="path">~/about</p>
+          <h2 id="about-title">Cloud that stays up, locked down and audit-ready</h2>
+          <p>A cloud support engineer who grew into operations, automation and solutioning.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-text glass" data-reveal>
+            <p>At <strong>NuSummit Technologies</strong> I manage and support multi-cloud infrastructure on <strong>AWS, Azure, GCP and OCI</strong> for a regulated financial-services client, and I started on L1 support before taking on operations, automation and presales solutioning.</p>
+            <p>I design and validate <strong>server hardening automation</strong> across Amazon Linux, RHEL and Ubuntu, plan and run <strong>disaster-recovery drills</strong> against defined RTO/RPO targets, and keep production healthy with New Relic and Site24x7 while maintaining <strong>99%+ SLA compliance</strong>.</p>
+            <p>I hold certifications on all three major clouds plus Kubernetes, and I'm currently preparing for the AWS DevOps Engineer Professional and the CKA.</p>
+            <ul class="facts">
+              <li><span class="k">Education</span><span>MCA, Late Bhausaheb Hiray College, Mumbai (2022–2024)<br>B.Sc. IT, PTVA's M.L. Dahanukar College of Commerce (2019–2022)</span></li>
+              <li><span class="k">Based in</span><span>Mumbai, India</span></li>
+              <li><span class="k">Languages</span><span>English (professional), Hindi (fluent), Marathi (native)</span></li>
+            </ul>
+          </div>
+
+          <!-- Career shown as a GitHub-Actions-style run: 4 jobs as connected floating panels -->
+          <div class="career" id="career" role="region" aria-label="My career shown as a CI pipeline run">
+            <div class="career-head">
+              <div class="run-title">
+                <span class="si" id="runIcon" data-icon="run"></span>
+                <div>
+                  <div class="run-name">career.yml <span>run #2026</span></div>
+                  <div class="run-meta"><span class="branch">main</span> pushed by rutik-sankapal</div>
+                </div>
+              </div>
+              <span class="chip running" id="runChip">In progress</span>
+            </div>
+            <ol class="career-jobs" id="careerJobs">
+              <li class="job-panel" data-final="done">
+                <div class="job-top"><span class="si" data-icon="queued"></span><span class="job-id">checkout-education</span><span class="job-when">2019–2024</span></div>
+                <ul class="job-lines">
+                  <li class="cmd">Run actions/checkout@education</li>
+                  <li class="ok">B.Sc. Information Technology<small>M.L. Dahanukar College, 2019–2022 · 8.88 CGPI</small></li>
+                  <li class="ok">Master of Computer Applications<small>Late Bhausaheb Hiray College, 2022–2024 · 8.15 CGPI</small></li>
+                </ul>
+              </li>
+              <li class="job-panel" data-final="done">
+                <div class="job-top"><span class="si" data-icon="queued"></span><span class="job-id">start-at-nusummit</span><span class="job-when">Jul 2024</span></div>
+                <ul class="job-lines">
+                  <li class="cmd">Run support --level L1 --clouds aws,azure,gcp,oci</li>
+                  <li class="ok">Joined as Trainee Cloud Engineer</li>
+                  <li class="ok">L1–L2 support for BFSI and enterprise clients</li>
+                </ul>
+              </li>
+              <li class="job-panel" data-final="done">
+                <div class="job-top"><span class="si" data-icon="queued"></span><span class="job-id">harden-and-recover</span><span class="job-when">Cloud Engineer</span></div>
+                <ul class="job-lines">
+                  <li class="cmd">Run harden.sh &amp;&amp; dr-drill --rto --rpo</li>
+                  <li class="ok">Bash hardening framework for 3 operating systems</li>
+                  <li class="ok">DR drills validated against RTO/RPO targets</li>
+                  <li class="ok">3 Bravo Awards</li>
+                </ul>
+              </li>
+              <li class="job-panel" data-final="running">
+                <div class="job-top"><span class="si" data-icon="queued"></span><span class="job-id">cloud-solutions-associate</span><span class="job-when">Apr 2026 – now</span></div>
+                <ul class="job-lines">
+                  <li class="cmd">Run solutioning --gcp-tam --presales</li>
+                  <li class="ok">Technical Account Manager for GCP accounts</li>
+                  <li class="ok">Proposals and architecture recommendations</li>
+                  <li class="wip">Next: AWS DevOps Pro and CKA</li>
+                </ul>
+              </li>
+            </ol>
+            <div class="career-foot">
+              <span>4 jobs, triggered by a career in cloud</span>
+              <button class="rerun" id="rerun" type="button">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13.5 8a5.5 5.5 0 1 1-1.6-3.9M13.5 2.5v3h-3"/></svg>
+                Re-run all jobs
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section class="block" id="skills" aria-labelledby="skills-title">
+      <div class="wrap">
+        <div class="sec-head" data-reveal>
+          <p class="path">~/skills</p>
+          <h2 id="skills-title">What I'm trusted with</h2>
+          <p>Each skill comes with where I've used it.</p>
+        </div>
+        <div class="caps">
+          <article class="cap glass tilt" data-reveal>
+            <div class="cap-ic"><svg aria-hidden="true"><use href="#i-cloud"/></svg></div>
+            <h3>Multi-cloud operations</h3>
+            <p>L1–L2 operational support and incident management on AWS, Azure, GCP and OCI for 50+ BFSI and enterprise clients.</p>
+            <ul class="tags"><li>AWS</li><li>Azure</li><li>GCP</li><li>OCI</li></ul>
+          </article>
+          <article class="cap glass tilt" data-reveal>
+            <div class="cap-ic"><svg aria-hidden="true"><use href="#i-shield"/></svg></div>
+            <h3>Security hardening and compliance</h3>
+            <p>A Bash hardening framework for Amazon Linux, RHEL and Ubuntu, aligned to CIS and STIG and mapped to NIST, ISO 27001 and PCI DSS.</p>
+            <ul class="tags"><li>CIS Benchmarks</li><li>STIG</li><li>NIST 800-53</li><li>IAM</li></ul>
+          </article>
+          <article class="cap glass tilt" data-reveal>
+            <div class="cap-ic"><svg aria-hidden="true"><use href="#i-container"/></svg></div>
+            <h3>Infrastructure and containers</h3>
+            <p>Infrastructure as code and container tooling, with CI/CD fundamentals and Kubernetes certification.</p>
+            <ul class="tags"><li>Terraform</li><li>Kubernetes</li><li>Docker</li><li>CI/CD</li></ul>
+          </article>
+          <article class="cap glass tilt" data-reveal>
+            <div class="cap-ic"><svg aria-hidden="true"><use href="#i-chart"/></svg></div>
+            <h3>Monitoring and observability</h3>
+            <p>Production monitoring and incident response that keeps SLA compliance above 99%.</p>
+            <ul class="tags"><li>New Relic</li><li>Site24x7</li><li>OpManager</li><li>CloudWatch</li></ul>
+          </article>
+          <article class="cap glass tilt" data-reveal>
+            <div class="cap-ic"><svg aria-hidden="true"><use href="#i-support"/></svg></div>
+            <h3>DR, BCP and incident management</h3>
+            <p>Planned and ran disaster-recovery drills that validate failover against RTO and RPO targets, with root-cause analysis after incidents.</p>
+            <ul class="tags"><li>DR drills</li><li>RCA</li><li>Problem management</li><li>SLA</li></ul>
+          </article>
+          <article class="cap glass tilt" data-reveal>
+            <div class="cap-ic"><svg aria-hidden="true"><use href="#i-shell"/></svg></div>
+            <h3>Automation and scripting</h3>
+            <p>Bash, Python and PowerShell to replace manual work, including an AI-assisted checklist generator for hardening.</p>
+            <ul class="tags"><li>Bash</li><li>Python</li><li>PowerShell</li><li>AI tooling</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section class="block" id="experience" aria-labelledby="experience-title">
+      <div class="wrap">
+        <div class="sec-head" data-reveal>
+          <p class="path">~/experience</p>
+          <h2 id="experience-title">Experience</h2>
+          <p>From L1 ticket triage to architecture and presales support.</p>
+        </div>
+        <div class="timeline">
+          <article class="xp glass" data-side="left">
+            <span class="xp-dot" aria-hidden="true"><span class="si" data-icon="run"></span></span>
+            <div class="xp-head">
+              <div>
+                <h3>Cloud Solutions Associate</h3>
+                <p class="co">NuSummit Technologies, Navi Mumbai</p>
+              </div>
+              <div class="when"><span class="state wip">Running</span>Jul 2024 – now</div>
+            </div>
+            <p class="products">Role path: <b>Trainee Cloud Engineer</b> <b>Cloud Engineer</b> <b>Cloud Associate</b> <b>Cloud Solutions Associate (Apr 2026 –)</b></p>
+            <ul class="steps">
+              <li><strong>Multi-cloud operations for a regulated financial-services client.</strong></li>
+              <li>Manage and support infrastructure on AWS, Azure, GCP and OCI, progressing from L1 support to ownership of operations, automation and presales solutioning.</li>
+              <li>Designed and validated a Bash-based server hardening framework across Amazon Linux, RHEL and Ubuntu, and built an AI-powered assistant that generates CIS/STIG-aligned checklists mapped to NIST, ISO 27001 and PCI DSS. Recognised with a Bravo Award.</li>
+              <li>Planned and executed disaster-recovery drills that validate failover against defined RTO/RPO targets.</li>
+              <li>Delivered production monitoring and incident response with New Relic and Site24x7, maintaining 99%+ SLA compliance.</li>
+              <li>Technical Account Manager for GCP accounts; contributed to technical proposals and architecture recommendations.</li>
+              <li>Three Bravo Awards: highest ticket-resolution volume, OS hardening delivery and DR execution.</li>
+            </ul>
+          </article>
+          <article class="xp glass" data-side="right">
+            <span class="xp-dot" aria-hidden="true"><span class="si" data-icon="pass"></span></span>
+            <div class="xp-head">
+              <div>
+                <h3>Certifications</h3>
+                <p class="co">AWS · Microsoft · Google Cloud · CNCF</p>
+              </div>
+              <div class="when"><span class="state ok">Passed</span>4 earned</div>
+            </div>
+            <ul class="steps">
+              <li>AWS Certified Solutions Architect – Associate</li>
+              <li>Microsoft Certified: Azure Administrator Associate</li>
+              <li>Google Cloud Associate Cloud Engineer</li>
+              <li>Kubernetes and Cloud Native Associate (KCNA)</li>
+              <li class="wip">Preparing: AWS Certified DevOps Engineer – Professional, Certified Kubernetes Administrator (CKA) and further cloud security and automation certifications.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= OPS DASHBOARD ================= -->
+    <section class="block" id="ops" aria-labelledby="ops-title">
+      <div class="wrap">
+        <div class="sec-head" data-reveal>
+          <p class="path">~/metrics</p>
+          <h2 id="ops-title">Ops at a glance</h2>
+          <p>My work as a Grafana-style board. The six numbers come from my résumé; the graph and the log stream are a live demo of what I watch every day.</p>
+        </div>
+        <div class="dash glass" data-reveal>
+          <div class="dash-bar">
+            <span class="dash-title"><svg aria-hidden="true"><use href="#i-chart"/></svg>rutik / ops-overview</span>
+            <span class="dash-time"><span class="live-dot" aria-hidden="true"></span>Last 24 hours · refresh 5s</span>
+          </div>
+          <ul class="stats" aria-label="Key numbers">
+            <li class="stat c-cyan"><span class="stat-k">BFSI and enterprise clients</span><b data-count="50" data-suffix="+">50+</b><svg class="spark" viewBox="0 0 100 28" aria-hidden="true"><path d="M0 24 L14 22 L28 20 L42 17 L56 15 L70 11 L84 8 L100 5"/></svg></li>
+            <li class="stat c-green"><span class="stat-k">SLA compliance</span><b data-count="99" data-suffix="%+">99%+</b><svg class="spark" viewBox="0 0 100 28" aria-hidden="true"><path d="M0 22 L25 22 L25 16 L50 16 L50 11 L75 11 L75 6 L100 6"/></svg></li>
+            <li class="stat c-amber"><span class="stat-k">Cloud platforms</span><b data-count="4">4</b><svg class="spark" viewBox="0 0 100 28" aria-hidden="true"><path d="M0 20 L20 18 L40 19 L60 12 L80 10 L100 8"/></svg></li>
+            <li class="stat c-cyan"><span class="stat-k">Certifications earned</span><b data-count="4">4</b><svg class="spark" viewBox="0 0 100 28" aria-hidden="true"><path d="M0 26 L70 26 L72 6 L100 6"/></svg></li>
+            <li class="stat c-green"><span class="stat-k">Operating systems hardened</span><b data-count="3">3</b><svg class="spark" viewBox="0 0 100 28" aria-hidden="true"><path d="M0 22 L30 18 L55 14 L80 10 L100 8"/></svg></li>
+            <li class="stat c-magenta"><span class="stat-k">Bravo Awards</span><b data-count="3">3</b><svg class="spark" viewBox="0 0 100 28" aria-hidden="true"><path d="M0 20 L33 20 L33 13 L66 13 L66 7 L100 7"/></svg></li>
+          </ul>
+          <div class="dash-row">
+            <figure class="panel graph-panel">
+              <figcaption><span>Tickets / hour</span><span class="demo-tag">demo data</span></figcaption>
+              <div class="graph-wrap"><canvas id="graph" aria-hidden="true"></canvas></div>
+              <div class="legend" aria-hidden="true"><span class="lg c-green">resolved</span><span class="lg c-amber">in progress</span><span class="lg c-magenta">escalated</span></div>
+            </figure>
+            <figure class="panel logs-panel">
+              <figcaption><span>Alerts · {job="cloud-ops"}</span><span class="demo-tag">demo data</span></figcaption>
+              <ol class="logs" id="logs" aria-hidden="true"></ol>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section class="block" id="projects" aria-labelledby="projects-title">
+      <div class="wrap">
+        <div class="sec-head" data-reveal>
+          <p class="path">~/projects</p>
+          <h2 id="projects-title">Projects</h2>
+          <p>Each card shows the stages of the work and where it stands today.</p>
+        </div>
+
+        <div class="projects">
+          <article class="proj featured glass tilt" data-reveal>
+            <div class="proj-top">
+              <span class="proj-status ok"><span class="si" data-icon="pass"></span>Delivered · Bravo Award</span>
+              <span class="branch">nusummit/hardening</span>
+            </div>
+            <div class="featured-body">
+              <div>
+                <h3>OS hardening automation framework</h3>
+                <p class="where">NuSummit Technologies</p>
+                <ol class="pipe" aria-label="Stages: baseline, harden, validate">
+                  <li class="ok"><span class="dot"></span>baseline</li>
+                  <li class="ok"><span class="dot"></span>harden</li>
+                  <li class="ok"><span class="dot"></span>validate</li>
+                </ol>
+                <ul class="steps">
+                  <li>Bash-based hardening automation across Amazon Linux, RHEL and Ubuntu.</li>
+                  <li>An AI-powered assistant generates CIS/STIG-aligned checklists mapped to NIST, ISO 27001 and PCI DSS.</li>
+                  <li>Recognised with a Bravo Award for OS hardening delivery.</li>
+                </ul>
+                <ul class="tags"><li>Bash</li><li>CIS Benchmarks</li><li>STIG</li><li>NIST</li><li>ISO 27001</li><li>PCI DSS</li></ul>
+              </div>
+              <div class="deploy-map" aria-hidden="true">
+                <div class="row">
+                  <div class="node">baseline<small>CIS / STIG</small></div>
+                  <div class="arrow"></div>
+                  <div class="node">harden.sh<small>Bash</small></div>
+                  <div class="arrow"></div>
+                  <div class="node target">server<small>hardened</small></div>
+                </div>
+                <div class="apps">
+                  <div class="app"><span class="si" data-icon="pass"></span>Amazon Linux</div>
+                  <div class="app"><span class="si" data-icon="pass"></span>RHEL</div>
+                  <div class="app"><span class="si" data-icon="pass"></span>Ubuntu</div>
+                </div>
+                <p class="cap-line">checklists mapped to NIST · ISO 27001 · PCI DSS</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="proj glass tilt" data-reveal>
+            <div class="proj-top">
+              <span class="proj-status ok"><span class="si" data-icon="pass"></span>In production</span>
+              <span class="branch">nusummit/dr</span>
+            </div>
+            <h3>Disaster-recovery drills and incident response</h3>
+            <p class="where">NuSummit Technologies</p>
+            <ol class="pipe" aria-label="Stages: plan, fail over, validate RTO/RPO"><li class="ok"><span class="dot"></span>plan</li><li class="ok"><span class="dot"></span>fail over</li><li class="ok"><span class="dot"></span>validate RTO/RPO</li></ol>
+            <ul class="steps"><li>Planned and executed DR drills that validate failover against defined RTO/RPO targets.</li><li>Production monitoring and incident response with New Relic and Site24x7.</li><li>99%+ SLA compliance; Bravo Award for DR execution.</li></ul>
+            <ul class="tags"><li>DR / BCP</li><li>New Relic</li><li>Site24x7</li><li>RCA</li></ul>
+          </article>
+
+          <article class="proj glass tilt" data-reveal>
+            <div class="proj-top">
+              <span class="proj-status ok"><span class="si" data-icon="pass"></span>Completed</span>
+              <span class="branch">aws/serverless</span>
+            </div>
+            <h3>AWS Automated Inventory and Reporting System</h3>
+            <p class="where">Personal project</p>
+            <ol class="pipe" aria-label="Stages: schedule, collect, store, deliver"><li class="ok"><span class="dot"></span>schedule</li><li class="ok"><span class="dot"></span>collect</li><li class="ok"><span class="dot"></span>store</li><li class="ok"><span class="dot"></span>deliver</li></ol>
+            <ul class="steps"><li>Serverless pipeline with EventBridge, Lambda, S3 and SES.</li><li>Delivers scheduled, versioned, audit-ready AWS resource reports.</li><li>Runs under a least-privilege IAM model.</li></ul>
+            <ul class="tags"><li>EventBridge</li><li>Lambda</li><li>S3</li><li>SES</li><li>IAM</li></ul>
+          </article>
+
+          <article class="proj glass tilt" data-reveal>
+            <div class="proj-top">
+              <span class="proj-status ok"><span class="si" data-icon="pass"></span>Completed</span>
+              <span class="branch">ai/architect</span>
+            </div>
+            <h3>AI Cloud Architect: infra diagram builder</h3>
+            <p class="where">Personal project</p>
+            <ol class="pipe" aria-label="Stages: describe, generate, diagram"><li class="ok"><span class="dot"></span>describe</li><li class="ok"><span class="dot"></span>generate</li><li class="ok"><span class="dot"></span>diagram</li></ol>
+            <ul class="steps"><li>Converts natural-language infrastructure requirements into cloud architecture diagrams.</li><li>Produces reference designs across AWS, Azure and GCP.</li></ul>
+            <ul class="tags"><li>AI</li><li>AWS</li><li>Azure</li><li>GCP</li></ul>
+          </article>
+
+          <article class="proj glass tilt" data-reveal>
+            <div class="proj-top">
+              <span class="proj-status ok"><span class="si" data-icon="pass"></span>Completed</span>
+              <span class="branch">ai/security</span>
+            </div>
+            <h3>Security Analysis Summarizer</h3>
+            <p class="where">Personal project</p>
+            <ol class="pipe" aria-label="Stages: parse, prioritize, remediate"><li class="ok"><span class="dot"></span>parse</li><li class="ok"><span class="dot"></span>prioritize</li><li class="ok"><span class="dot"></span>remediate</li></ol>
+            <ul class="steps"><li>AI-driven tool that parses security scan and log output.</li><li>Turns it into prioritized, plain-language risk summaries with remediation guidance.</li></ul>
+            <ul class="tags"><li>AI</li><li>Security</li><li>Log analysis</li></ul>
+          </article>
+
+          <article class="proj glass tilt" data-reveal>
+            <div class="proj-top">
+              <span class="proj-status ok"><span class="si" data-icon="pass"></span>Completed</span>
+              <span class="branch">finops</span>
+            </div>
+            <h3>Cloud Cost Guard: cost optimizer</h3>
+            <p class="where">Personal project</p>
+            <ol class="pipe" aria-label="Stages: ingest, analyze, recommend"><li class="ok"><span class="dot"></span>ingest</li><li class="ok"><span class="dot"></span>analyze</li><li class="ok"><span class="dot"></span>recommend</li></ol>
+            <ul class="steps"><li>Analyzes multi-cloud billing and usage data.</li><li>Flags idle and underutilized resources and recommends cost-saving actions.</li></ul>
+            <ul class="tags"><li>FinOps</li><li>Multi-cloud</li><li>Python</li></ul>
+          </article>
+
+          <article class="proj glass tilt" data-reveal>
+            <div class="proj-top">
+              <span class="proj-status ok"><span class="si" data-icon="pass"></span>In production</span>
+              <span class="branch">nusummit/gcp</span>
+            </div>
+            <h3>GCP Technical Account Manager and presales</h3>
+            <p class="where">NuSummit Technologies, 2026</p>
+            <ol class="pipe" aria-label="Stages: discover, design, advise"><li class="ok"><span class="dot"></span>discover</li><li class="ok"><span class="dot"></span>design</li><li class="wip"><span class="dot"></span>advise</li></ol>
+            <p>Acting as Technical Account Manager for GCP accounts, and contributing to technical proposals and architecture recommendations for cloud infrastructure engagements.</p>
+            <ul class="tags"><li>GCP</li><li>Architecture</li><li>Presales</li></ul>
+          </article>
+
+          <article class="proj glass tilt" data-reveal>
+            <div class="proj-top">
+              <span class="proj-status wip"><span class="si" data-icon="run"></span>Studying</span>
+              <span class="branch">cncf/kubernetes</span>
+            </div>
+            <h3>Kubernetes: KCNA done, CKA next</h3>
+            <p class="where">Learning path</p>
+            <ol class="pipe" aria-label="Stages: kcna, cka, aws devops pro"><li class="ok"><span class="dot"></span>kcna</li><li class="wip"><span class="dot"></span>cka</li><li class=""><span class="dot"></span>aws devops pro</li></ol>
+            <p>Certified as a Kubernetes and Cloud Native Associate and preparing for the CKA. The animation below is an illustration of a rolling update (maxSurge 1, maxUnavailable 0): pods swap one at a time while 6/6 stay ready.</p>
+            <div class="rollout" data-rollout aria-hidden="true">
+              <div class="ro-head"><span class="ro-cmd">$ kubectl rollout status deploy/demo-app</span><span class="ro-ready"><b data-ro-ready>6</b>/6 ready</span></div>
+              <div class="ro-pods" data-ro-pods></div>
+              <div class="ro-foot"><span data-ro-msg>waiting for rollout…</span><span class="ro-avail">availability <b data-ro-avail>100%</b></span></div>
+            </div>
+            <p class="sr-only">Animation: a rolling update replaces 6 pods one at a time, so 6 of 6 stay ready the whole way through.</p>
+            <ul class="tags"><li>Kubernetes</li><li>KCNA</li><li>CKA prep</li><li>Docker</li></ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TECH STACK ================= -->
+    <section class="block" id="stack" aria-labelledby="stack-title">
+      <div class="wrap">
+        <div class="sec-head" data-reveal>
+          <p class="path">~/stack</p>
+          <h2 id="stack-title">Tech stack</h2>
+          <p>The tools I use, and what I use each one for.</p>
+        </div>
+        <div class="filters" role="group" aria-label="Filter tools" data-reveal>
+          <button class="filter" type="button" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter" type="button" data-filter="cloud" aria-pressed="false">Cloud</button>
+          <button class="filter" type="button" data-filter="infra" aria-pressed="false">Infrastructure</button>
+          <button class="filter" type="button" data-filter="obs" aria-pressed="false">Observability</button>
+          <button class="filter" type="button" data-filter="sec" aria-pressed="false">Security and scripting</button>
+        </div>
+        <div class="stack-stage">
+          <div class="cloud" id="cloud">
+            <ul class="cloud-list" id="cloudList" aria-label="Tools. Choose one to read what I use it for.">
+              <li><button class="orb" type="button" data-cat="cloud" data-kind="Cloud" data-desc="AWS Certified Solutions Architect – Associate. Day-to-day operations, plus an automated inventory and reporting pipeline."><svg aria-hidden="true"><use href="#i-cloud"/></svg>AWS</button></li>
+              <li><button class="orb" type="button" data-cat="cloud" data-kind="Cloud" data-desc="Microsoft Certified Azure Administrator Associate. Operational support for enterprise clients."><svg aria-hidden="true"><use href="#i-cloud"/></svg>Azure</button></li>
+              <li><button class="orb" type="button" data-cat="cloud" data-kind="Cloud" data-desc="Google Cloud Associate Cloud Engineer. Technical Account Manager for GCP accounts."><svg aria-hidden="true"><use href="#i-cloud"/></svg>GCP</button></li>
+              <li><button class="orb" type="button" data-cat="cloud" data-kind="Cloud" data-desc="Operational support on Oracle Cloud Infrastructure for client environments."><svg aria-hidden="true"><use href="#i-cloud"/></svg>OCI</button></li>
+              <li><button class="orb" type="button" data-cat="infra" data-kind="Infrastructure as code" data-desc="Provisioning cloud infrastructure as code."><svg aria-hidden="true"><use href="#i-cube"/></svg>Terraform</button></li>
+              <li><button class="orb" type="button" data-cat="infra" data-kind="Orchestration" data-desc="KCNA certified; preparing for the CKA."><svg aria-hidden="true"><use href="#i-cluster"/></svg>Kubernetes</button></li>
+              <li><button class="orb" type="button" data-cat="infra" data-kind="Containers" data-desc="Container packaging and local environments."><svg aria-hidden="true"><use href="#i-container"/></svg>Docker</button></li>
+              <li><button class="orb" type="button" data-cat="infra" data-kind="Systems" data-desc="RHEL, Ubuntu and Amazon Linux: operations and hardening."><svg aria-hidden="true"><use href="#i-terminal"/></svg>Linux</button></li>
+              <li><button class="orb" type="button" data-cat="infra" data-kind="Systems" data-desc="Windows Server administration and support."><svg aria-hidden="true"><use href="#i-server"/></svg>Windows Server</button></li>
+              <li><button class="orb" type="button" data-cat="infra" data-kind="Delivery" data-desc="CI/CD fundamentals for build and release automation."><svg aria-hidden="true"><use href="#i-pipeline"/></svg>CI/CD</button></li>
+              <li><button class="orb" type="button" data-cat="obs" data-kind="Monitoring" data-desc="Production monitoring and incident response."><svg aria-hidden="true"><use href="#i-gauge"/></svg>New Relic</button></li>
+              <li><button class="orb" type="button" data-cat="obs" data-kind="Monitoring" data-desc="Uptime and performance monitoring that supports 99%+ SLA compliance."><svg aria-hidden="true"><use href="#i-chart"/></svg>Site24x7</button></li>
+              <li><button class="orb" type="button" data-cat="obs" data-kind="Monitoring" data-desc="Infrastructure and network monitoring."><svg aria-hidden="true"><use href="#i-server"/></svg>OpManager</button></li>
+              <li><button class="orb" type="button" data-cat="obs" data-kind="Logs and metrics" data-desc="AWS metrics, alarms and log analysis."><svg aria-hidden="true"><use href="#i-logs"/></svg>CloudWatch</button></li>
+              <li><button class="orb" type="button" data-cat="sec" data-kind="Access" data-desc="IAM and access management, including least-privilege roles for the AWS inventory pipeline."><svg aria-hidden="true"><use href="#i-shield"/></svg>IAM</button></li>
+              <li><button class="orb" type="button" data-cat="sec" data-kind="Compliance" data-desc="CIS Benchmarks and STIG baselines, mapped to NIST 800-53, ISO 27001, PCI DSS and GDPR."><svg aria-hidden="true"><use href="#i-playbook"/></svg>CIS and STIG</button></li>
+              <li><button class="orb" type="button" data-cat="sec" data-kind="Scripting" data-desc="Server hardening framework and operational automation."><svg aria-hidden="true"><use href="#i-shell"/></svg>Bash</button></li>
+              <li><button class="orb" type="button" data-cat="sec" data-kind="Scripting" data-desc="Automation and AI-assisted tooling, such as the cost optimizer and security summarizer."><svg aria-hidden="true"><use href="#i-gear"/></svg>Python</button></li>
+              <li><button class="orb" type="button" data-cat="sec" data-kind="Scripting" data-desc="Windows administration and automation."><svg aria-hidden="true"><use href="#i-shell"/></svg>PowerShell</button></li>
+            </ul>
+          </div>
+          <div class="tool-detail glass" id="toolDetail" aria-live="polite">
+            <p class="td-hint">Choose a tool to see what I use it for.</p>
+          </div>
+        </div>
+        <!-- Full list for search engines and screen readers -->
+        <dl class="sr-only" id="stackList"></dl>
+      </div>
+    </section>
+
+    <!-- ================= SHELL ================= -->
+    <section class="block" id="shell" aria-labelledby="shell-title">
+      <div class="wrap">
+        <div class="sec-head" data-reveal>
+          <p class="path">~/shell</p>
+          <h2 id="shell-title">Ask my terminal</h2>
+          <p>Type <code>help</code> to see what it can do. A few commands fetch live data from GitHub.</p>
+        </div>
+        <div class="term glass" id="term" data-reveal>
+          <div class="term-bar"><i></i><i></i><i></i><span>rutik@cloud: ~</span><span class="term-hint">try: ./dr-drill.sh</span></div>
+          <div class="term-body" id="termBody">
+            <div class="term-out" id="termOut" role="log" aria-live="polite" aria-label="Terminal output"></div>
+            <form class="term-line" id="termForm" autocomplete="off">
+              <label class="prompt" for="termIn"><span class="pu">rutik@cloud</span>:<span class="pp">~</span>$</label>
+              <input id="termIn" type="text" spellcheck="false" autocapitalize="off" autocomplete="off" aria-label="Type a command, for example help">
+            </form>
+          </div>
+          <div class="term-chips" aria-label="Quick commands">
+            <button type="button" data-cmd="whoami">whoami</button><button type="button" data-cmd="cat certs">cat certs</button><button type="button" data-cmd="cat skills.yml">cat skills.yml</button><button type="button" data-cmd="gh repo list">gh repo list</button><button type="button" data-cmd="./dr-drill.sh">./dr-drill.sh</button><button type="button" data-cmd="sudo hire rutik">sudo hire rutik</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= CONTACT ================= -->
+  <footer class="contact" id="contact">
+    <div class="wrap">
+      <div class="dispatch">
+        <div data-reveal>
+          <p class="path">~/contact</p>
+          <h2>Need someone to keep your cloud calm, secure and audit-ready? Let's talk.</h2>
+          <p>Email is the fastest way to reach me. My code is on GitHub and my work history is on LinkedIn.</p>
+        </div>
+        <div class="wd glass" data-reveal>
+          <p class="wd-title">Run workflow</p>
+          <p class="wd-sub">This workflow has a manual trigger.</p>
+          <div class="wd-field">Workflow</div>
+          <div class="wd-select"><span>say-hello.yml</span><span>main</span></div>
+          <button class="btn run-btn" id="runWorkflow" type="button"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 3v10l8.5-5z" fill="currentColor"/></svg>Run workflow</button>
+          <ol class="wf-steps" id="wfSteps" aria-live="polite" hidden>
+            <li data-step><span class="si" data-icon="queued"></span>validate-sender</li>
+            <li data-step><span class="si" data-icon="queued"></span>compose-message</li>
+            <li data-step><span class="si" data-icon="queued"></span>deliver-to-inbox</li>
+          </ol>
+          <p class="wf-done" id="wfDone" hidden>Workflow succeeded. Say hello at <a href="mailto:rutiksankapal98@gmail.com">rutiksankapal98@gmail.com</a></p>
+          <a class="btn primary" href="mailto:rutiksankapal98@gmail.com"><svg aria-hidden="true"><use href="#i-mail"/></svg>Email rutiksankapal98@gmail.com</a>
+          <div class="alt">
+            <a class="btn" href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-github"/></svg>GitHub</a>
+            <a class="btn" href="https://www.linkedin.com/in/rutik-sankapal" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-linkedin"/></svg>LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <div class="fine">
+        <span>Rutik Sankapal, Mumbai, India</span>
+        <span class="deploy-live" id="deployLive">Deployed to GitHub Pages by <a href="https://github.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME.github.io/actions" target="_blank" rel="noopener">GitHub Actions</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Command palette (Ctrl/Cmd + K) -->
+  <div class="kbar" id="kbar" role="dialog" aria-modal="true" aria-label="Command palette" hidden>
+    <div class="kbar-box glass">
+      <div class="kbar-input"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><input id="kbarIn" type="text" placeholder="Jump to a section or run an action…" aria-label="Search sections and actions" aria-controls="kbarList" aria-autocomplete="list" autocomplete="off"><kbd>Esc</kbd></div>
+      <ul class="kbar-list" id="kbarList" role="listbox" aria-label="Results"></ul>
+    </div>
+  </div>
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
